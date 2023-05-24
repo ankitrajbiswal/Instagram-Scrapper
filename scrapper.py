@@ -4,10 +4,10 @@ import instaloader
 loader = instaloader.Instaloader()
 
 # Login to your Instagram account (optional)
-loader.login("bea_brand_official", "Beabrand@333")
+loader.login("username", "password")
 
 # Load your own profile
-profile = instaloader.Profile.from_username(loader.context, "bea_brand_official")
+profile = instaloader.Profile.from_username(loader.context, "username")
 
 # Iterate through your following
 for followee in profile.get_followees():
