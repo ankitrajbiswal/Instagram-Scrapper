@@ -4,8 +4,9 @@ To scrape data from Instagram, you can use a Python library called "Instaloader.
 
 To get started, you'll need to install the Instaloader library. You can do this by running the following command in your terminal or command prompt:
 
--- pip install instaloader
-
+  ```
+pip install instaloader
+  ```
 
 You can write the code in a Python script file using a text editor or an Integrated Development Environment (IDE) of your choice. Follow these steps to run the code:
 
